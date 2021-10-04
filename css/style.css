@@ -1,0 +1,233 @@
+body {
+  background-image: url("bg5.jpg");
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*body {
+  background: rgb(12, 95, 184);
+  background: linear-gradient(90deg, rgb(70, 212, 239) 0%, rgb(150, 212, 239) 25%, rgb(170, 212, 239) 75%,rgb(224, 212, 239) 100%);
+}*/
+
+p {
+  color:black;
+  font-family: rockwell;
+}
+
+h1 {
+  color:#212E81;
+  font-family: rockwell;
+}
+
+.future {
+  color: #F69200; 
+  background-color: #212E81;
+  font-family: rockwell;
+  font-size: 105%;
+  width: 50%;
+  margin-left: 10%;
+  text-align: center;
+  border: 4px solid #F69200;
+  border-radius: 25px;
+}
+
+h3{
+  color:#212E81; 
+  font-family: rockwell;
+}
+
+.logo1{
+margin-left: 40%;
+position: relative;
+}
+  
+#fitname{
+  position: absolute;
+  margin-top: -13%;
+  margin-left: -19%;
+}
+  
+#fitname2{
+  position: absolute;
+  margin-top: -13%;
+  margin-left: 29%;
+}
+  
+#banner {
+    width: 100%;
+    height: 205px;
+    position: absolute;
+    margin-top: -8px;
+    margin-left: -8px;
+ }
+
+  ul {
+    background-image: linear-gradient(180deg, #252525 0%, #171717 50%, #010101 51%, #151515 100%);
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    margin-left: -32px;
+    /*padding: 0;*/
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: +1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-family: rockwell;
+    text-align: center;
+    padding: 16px 24px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    /*background-color: rgb(44, 44, 44);*/
+    background-image: linear-gradient(180deg, #575757 0%, #494949 50%, #333333 51%, #474747 100%);
+    font-family: rockwell;
+  }
+
+  .active {
+    background-color: #F69200;
+    color: white;
+  }
+
+  #social {
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  img.seimg {
+    width: 36%;
+    margin-left: 65%;
+    margin-top: -10%;
+    position: absolute;
+    opacity: 55%;
+    z-index: -1;
+  }
+
+  img.mypic {
+    width: 25%;
+    margin-left: 66%;
+    margin-top: 4%;
+    position: absolute;
+    z-index: -2;
+  }
+
+  img.mypicbg {
+    width: 25%;
+    background-color: #F69200;
+    margin-left: 67%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: -2;
+  }
+
+  img.aboutmedrawing {
+    margin-left: 1%;
+    margin-top: -2%;
+    width:25%;
+  }
+
+  #omgaan {
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  #experiment {
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .about_me {
+    width: 50%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  #id1 {
+    width: 60%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .vidtekst1 {
+    width: 58%;
+    padding-left: 10%;
+    padding-top: 1%;
+  }
+
+  .vidtekst2 {
+    width: 58%;
+    padding-left: 34%;
+    text-align: right;
+  }
+  
+  .vid1 {
+    width: 340px;
+    height: 240px; 
+    position:absolute;
+    margin-top: -16%;
+    margin-left: 60%;
+  }
+
+  .vid2 {
+    width: 340px;
+    height: 240px; 
+    position:absolute;
+    margin-top: -16%;
+    margin-left: -24%;
+  }
+
+  hr.orangeline1 {
+    border: 3px solid #F69200;
+    margin-bottom: 0%;
+    margin-left: -12px;
+    width: 101%;
+  }
+
+  hr.orangeline2 {
+    border: 2px solid rgb(3, 61, 124);
+  }
+  
+  a.one:link{
+    color: #F69200;
+  }
+  
+  a.one:visited{
+    color: #F69200;
+  }
+  
+  a.one:hover{
+    background-color: #F69200;
+    color: white
+  }
+
+
+ /* unvisited link */
+
+
+/* visited link */
+
+
+/*<a href="https://twitter.com/mdemarendsly" title="Twitter account Marendsly" target="_blank">twitter account</a>*/
+
